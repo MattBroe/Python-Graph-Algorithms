@@ -9,9 +9,9 @@ import myMinHeap
 import random
 
 def kruskalMSF(A):
-    #Here A is the n x n adjacency matrix of a weighted simple undirected graph
-    #G with vertex set {0, 1, ..., n-1}. The code may not work properly if A is
-    #not symmetric.
+    #Here A is the n x n adjacency matrix (i.e. a list of lists)
+    #of a weighted simple undirected graph G with vertex set {0, 1, ..., n-1}.
+    #The code may not work properly if A is not symmetric. 
     
     #The program uses the convention that A[i][j] = float('inf') when
     #there is no edge between vertex i and vertex j. 
